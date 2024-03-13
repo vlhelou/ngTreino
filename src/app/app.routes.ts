@@ -1,3 +1,5 @@
 import { Routes } from '@angular/router';
-
-export const routes: Routes = [];
+import { PrincipalComponent } from './observable/principal/principal.component';  
+export const routes: Routes = [
+    { path: 'observable', component: PrincipalComponent },
+];
